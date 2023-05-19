@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./images/favicon.ico">
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		h1 {
+			margin-bottom: 20px;
+			font-size: 96px;
+			color: #333;
+		}
+
+		.project-image {
+			width: 100%;
+			max-width: 600px;
+			height: auto;
+			margin-bottom: 20px;
+		}
+
+		.project-description {
+			margin-bottom: 20px;
+			font-size: 20px;
+			line-height: 2.5;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		.back-link {
+			color: #919191;
+			text-decoration: none;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			padding: 20px;
+			font-weight: 600;
+		}
+
+		.back-link:hover {
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20 20px;
+
+		}
+		.container .image-description {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+			background-color:none;
+			color: none;
+			font-size: 14px;
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+		}
+		
+		.container:hover > .image-description {
+		visibility: hidden;
+		opacity: 0;
+		color: #333;
+		}
+
+		.container:hover:hover > .image-description {
+		visibility: visible;
+		opacity: 1;
+		color: #333;
+		}
+		.gallery {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+		}
+
+		.image-wrapper {
+			position: relative;
+		}
+
+		.image-wrapper img {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Killbear</h1>
+		<p class="project-description">
+			Killbear Provincial Park in Ontario, Canada serves as the captivating backdrop for an immersive photography project that transports viewers into the heart of pristine natural beauty. Through stunning visuals, this project captures the park's diverse ecosystems, from its rugged rocky shores to its lush forests, and highlights the delicate balance between wildlife and their surroundings. Each photograph showcases the park's rich tapestry of colors, textures, and light, inviting audiences to embark on a visual journey that instills a deep appreciation for the wonders of nature and the need to protect these invaluable spaces for generations to come.
+		</p>
+		<a href="index.html" class="back-link">Back to Home</a>
+	</div>
+	<div class="container">
+        <div class="gallery">
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\killbear\_MG_7395-2.jpg"alt="Image 1">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\killbear\_MG_7228-2.jpg"alt="Image 2">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6046.jpg" alt="Image 3">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6031.jpg" alt="Image 4">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_5748-2.jpg" alt="Image 5">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_9696-3.jpg" alt="Image 6">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6044.jpg" alt="Image 7">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6011.jpg" alt="Image 8">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_5919.jpg" alt="Image 9">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_4153.jpg" alt="Image 10">
+            <div class="image-description">Description of the image</div>
+          </div>
+      </div>
+</body>
+</html>

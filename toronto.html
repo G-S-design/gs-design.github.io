@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./images/favicon.ico">
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		h1 {
+			margin-bottom: 20px;
+			font-size: 96px;
+			color: #333;
+		}
+
+		.project-image {
+			width: 100%;
+			max-width: 600px;
+			height: auto;
+			margin-bottom: 20px;
+		}
+
+		.project-description {
+			margin-bottom: 20px;
+		}
+
+		.back-link {
+			color: #919191;
+			text-decoration: none;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			padding: 20px;
+			font-weight: 600;
+		}
+
+		.back-link:hover {
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20 20px;
+
+		}
+		.container .image-description {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+			background-color:none;
+			color: none;
+			font-size: 14px;
+			visibility: hidden;
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+		}
+		
+		.container:hover > .image-description {
+		visibility: hidden;
+		opacity: 0;
+		color: #333;
+		}
+
+		.container:hover:hover > .image-description {
+		visibility: visible;
+		opacity: 1;
+		color: #333;
+		}
+		.gallery {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+		}
+
+		.image-wrapper {
+			position: relative;
+		}
+
+		.image-wrapper img {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Toronto</h1>
+		<p class="project-description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper mauris ac sem venenatis ultrices.
+			Morbi ac consequat purus, sed viverra justo. Sed non lacus finibus, finibus urna ut, euismod lectus.
+			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla
+			facilisi. Donec eu fringilla eros. Suspendisse dapibus semper mi, in varius ante iaculis vel. Vivamus
+			egestas commodo orci, vitae molestie urna tempus a. In porttitor condimentum dictum.
+		</p>
+		<a href="index.html" class="back-link">Back to Home</a>
+	</div>
+	<div class="container">
+        <div class="gallery">
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_5228.jpg"alt="Image 1">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_5244.jpg"alt="Image 2">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6046.jpg" alt="Image 3">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6031.jpg" alt="Image 4">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_5748-2.jpg" alt="Image 5">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_9696-3.jpg" alt="Image 6">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6044.jpg" alt="Image 7">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_6011.jpg" alt="Image 8">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_5919.jpg" alt="Image 9">
+            <div class="image-description">Description of the image</div>
+          </div>
+          <div class="image-wrapper">
+            <img src="C:\Users\gabri\Desktop\WEBSITE PHOTOS\Toronto\_MG_4153.jpg" alt="Image 10">
+            <div class="image-description">Description of the image</div>
+          </div>
+      </div>
+</body>
+</html>
